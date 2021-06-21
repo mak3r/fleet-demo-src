@@ -1,6 +1,11 @@
 targetCustomizations:
-  - name: arm
+  - name: ny
     yaml:
       overlays:
         - green-color
-    clusterGroup: two
+    clusterGroup: new-york
+  - name: tx
+    yaml:
+      overlays:
+        - red-color
+    clusterGroup: texas
