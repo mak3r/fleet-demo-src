@@ -3,9 +3,9 @@ targetCustomizations:
     yaml:
       overlays:
         - green-color
-    clusterGroup: new-york
-  - name: tx
+    clusterGroup: ny-group
+  - name: gb
     yaml:
       overlays:
         - red-color
-    clusterGroup: texas
+    clusterGroup: gb-group
