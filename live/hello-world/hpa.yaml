@@ -7,9 +7,9 @@ spec:
   maxReplicas: 10
   metrics:
   - resource:
-      name: cpu
+      name: memory
       target:
-        averageUtilization: 5
+        averageUtilization: 10
         type: Utilization
     type: Resource
   minReplicas: 2
