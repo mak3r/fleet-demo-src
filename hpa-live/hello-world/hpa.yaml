@@ -9,7 +9,7 @@ spec:
   - resource:
       name: memory
       target:
-        averageUtilization: 7
+        averageUtilization: 6
         type: Utilization
     type: Resource
   minReplicas: 2
