@@ -1,8 +1,0 @@
-diff:
-  comparePatches:
-  - apiVersion: apps/v1
-    kind: Deployment
-    name: hello-world
-    namespace: default
-    operations:
-    - {"op": "remove", "path": "/spec/replicas"}
