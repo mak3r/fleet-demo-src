@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: hello-world
-          image: bashofmann/rancher-demo:1.0.0
+          image: mak3r/rancher-demo:1.0.0
           imagePullPolicy: Always
           resources:
             requests:
