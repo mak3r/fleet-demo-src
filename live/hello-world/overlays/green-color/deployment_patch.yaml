@@ -1,0 +1,12 @@
+spec:
+  template:
+    spec:
+      containers:
+        - name: hello-world
+          env:
+            - name: CONTAINER_COLOR
+              value: green
+            - name: PETS
+              value: chameleons
+            - name: TITLE
+              value: "Munich International Airport"
