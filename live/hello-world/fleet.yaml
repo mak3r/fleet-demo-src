@@ -12,5 +12,5 @@ targetCustomizations:
   - name: nl
     yaml:
       overlays:
-      - orange-color
+      - orange
     clusterGroup: netherlands
