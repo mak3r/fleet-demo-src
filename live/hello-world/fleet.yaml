@@ -14,4 +14,4 @@ targetCustomizations:
       overlays:
         - orange-color
     clusterGroup: netherlands
-    
+    namespace: fleet-default
