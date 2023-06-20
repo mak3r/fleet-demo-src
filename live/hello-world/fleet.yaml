@@ -9,3 +9,9 @@ targetCustomizations:
       overlays:
         - red-color
     clusterGroup: germany
+  - name: nl
+    yaml:
+      overlays:
+        - orange-color
+    clusterGroup: netherlands
+    
