@@ -5,8 +5,6 @@ spec:
         - name: hello-world
           env:
             - name: CONTAINER_COLOR
-              value: red
-            - name: PETS
-              value: chameleons
+              value: orange
             - name: TITLE
-              value: "Munich International Airport"
+              value: "Amsterdam Airport Schipol"

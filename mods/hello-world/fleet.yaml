@@ -4,8 +4,13 @@ targetCustomizations:
       overlays:
         - green-color
     clusterGroup: new-york
-  - name: tx
+  - name: de
     yaml:
       overlays:
         - red-color
-    clusterGroup: texas 
+    clusterGroup: germany
+  - name: nl
+    yaml:
+      overlays:
+        - orange
+    clusterGroup: netherlands
