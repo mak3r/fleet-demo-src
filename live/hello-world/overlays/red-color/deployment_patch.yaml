@@ -8,5 +8,3 @@ spec:
               value: red
             - name: PETS
               value: chameleons
-            - name: TITLE
-              value: "Munich International Airport"
