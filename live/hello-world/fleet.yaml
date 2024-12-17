@@ -2,24 +2,3 @@ targetCustomizations:
   - name: hello-std
     helm:
       releaseName: hello-live
-  - name: ny
-    yaml:
-      overlays:
-        - green-color
-    clusterGroup: new-york
-    helm:
-      releaseName: hello-live
-  - name: tx
-    yaml:
-      overlays:
-        - red-color
-    clusterGroup: texas
-    helm:
-      releaseName: hello-live
-  - name: nl
-    yaml:
-      overlays:
-        - orange
-    clusterGroup: netherlands
-    helm:
-      releaseName: hello-live
