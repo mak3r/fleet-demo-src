@@ -1,0 +1,4 @@
+targetCustomizations:
+  - name: hello-std
+    helm:
+      releaseName: hello-live
