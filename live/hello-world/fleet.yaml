@@ -4,6 +4,8 @@ targetCustomizations:
       overlays:
         - green-color
     clusterGroup: new-york
+    helm:
+      releaseName: hello-world-ny
   - name: tx
     yaml:
       overlays:
