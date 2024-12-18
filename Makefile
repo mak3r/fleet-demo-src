@@ -2,6 +2,7 @@
 
 mode_1:
 	rm -r live/hello-world/overlays live/hello-world/fleet.yaml
+	cp baseline/hello-world/fleet.yaml live/hello-world/.
 	git add live
 	git commit -m "mode 1"
 	echo "'git push' to update the remote to mode 1"

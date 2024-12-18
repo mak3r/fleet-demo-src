@@ -15,7 +15,7 @@ targetCustomizations:
         - red-color
     clusterGroup: texas
     helm:
-      releaseName: hello-live
+      releaseName: hello-live-hello-world
   - name: nl
     yaml:
       overlays:
